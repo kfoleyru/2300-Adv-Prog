@@ -3,6 +3,7 @@
 #include <algorithm>
 using namespace std;
 
+// ugh too much code
 vector<int> remove_duplicates(vector<int> arr, vector<int>& removed_elements){
     vector<int> unique_arr;
     sort(arr.begin(), arr.end());
