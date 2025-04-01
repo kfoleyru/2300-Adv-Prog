@@ -1,3 +1,5 @@
+
+// This method sums the even terms of the Fibonacci sequence from 0 to 4,000,000
 public class sum_even_fibonacci {
     public static void main(String[] args) {
         int a = 0, b = 1;
