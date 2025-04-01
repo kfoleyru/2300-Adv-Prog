@@ -3,6 +3,8 @@
 #include <algorithm>
 using namespace std;
 
+// bugs introduced: arm
+
 // ugh too much code
 vector<int> remove_duplicates(vector<int> arr, vector<int>& removed_elements){
     vector<int> unique_arr;
