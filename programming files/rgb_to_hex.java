@@ -1,4 +1,5 @@
 public class rgb_to_hex {
+    //main function, calls the method and prints the results
     public static void main(String[] args) {
         int r = 255;
         int g = 127;
@@ -7,6 +8,7 @@ public class rgb_to_hex {
         System.out.println("RGB color (" + r + ", " + g + ", " + b + ") = " + hexColor);
     }
 
+    //Method that takes the rgb values as arguments and converts them and then puts them into hex form
     public static String rgbToHex(int r, int g, int b) {
         r = Math.min(255, Math.max(0, r));
         g = Math.min(255, Math.max(0, g));
